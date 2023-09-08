@@ -1,0 +1,11 @@
+{
+	"name": "fast graphite conveyor",
+	"displayName": "fastgraphiteconveyor",
+	"author": "Dark_Moon_a4",
+	"description": "",
+	"version": "1",
+	"hidden": true,
+
+	"minGameVersion": "136",
+	"dependencies": []
+}
