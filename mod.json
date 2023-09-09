@@ -6,6 +6,6 @@
 	"version": "1",
 	"hidden": true,
 
-	"minGameVersion": "136",
+	"minGameVersion": "136.1",
 	"dependencies": []
 }
