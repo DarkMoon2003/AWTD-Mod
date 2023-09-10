@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "name": "Sand Sieve",
+  "health": 200,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "mechanical-drill"
+   "requirements": [
+   {"item": "sand", "amount": 200},
+   {"item": "copper", "amount": 200},
+   {"item": "lead", "amount": 200},
+   ],
+  "consumes": {
+   "power": 1,
+    "items": [
+     {"item": "sand", "amount": 100},
+    ]
+    "liquids": [
+        
+        {"liquid": "water", "amount": 1},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 300,
+  "outputItem": { "item": "seed-1", "amount": 1}
+}
