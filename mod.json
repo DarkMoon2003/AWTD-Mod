@@ -1,9 +1,18 @@
 {
-	"name": "fast graphite conveyor",
-	"displayName": "fastgraphiteconveyor",
+	"name": "AWTD Mod",
+	"displayName": "AWTD Mod",
 	"author": "Dark_Moon_a4",
-	"description": "",
-	"version": "1",
+	"description":'''
+	
+	AWTD Mod (Anothe Way To Develop)
+
+	–Develop:
+	*Farm Develop
+	
+	
+	
+	''',
+	"version": "0.2",
 	"hidden": true,
 
 	"minGameVersion": "136",
