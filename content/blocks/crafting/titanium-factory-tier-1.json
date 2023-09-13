@@ -1,0 +1,33 @@
+{
+  "type": "GenericCrafter",
+  "name": "Titanium Factory",
+  "health": 300,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "silicon-factory-tier-1"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 200},
+   {"item": "copper", "amount": 200},
+   {"item": "sand", "amount": 200},
+
+   ],
+  "consumes": {
+  "power": 5,
+    "items": [
+     {"item": "meat-1", "amount": 3},
+     
+    ]
+    "liquids": [
+        
+        {"liquid": "oil", "amount": 0.4},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 200,
+  "outputItem": { "item": "titanium", "amount": 10}
+}

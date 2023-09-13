@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Thorium Factory Tier 1",
+  "health": 300,
+  "size": 3,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "titanium-factory-tier-1"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 200},
+   {"item": "thorium", "amount": 200},
+   {"item": "sand", "amount": 200},
+
+   ],
+  "consumes": {
+  "power": 10,
+    "items": [
+     {"item": "meat-1", "amount": 4},
+     {"item": "titanium", "amount": 1},
+
+    ]
+    "liquids": [
+        
+        {"liquid": "oil", "amount": 1},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 200,
+  "outputItem": { "item": "thorium", "amount": 5}
+}

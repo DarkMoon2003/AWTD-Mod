@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "name": "Sand Factory Tier 1",
+  "health": 300,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "sand-sieve"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   {"item": "sand", "amount": 300},
+
+   ],
+  "consumes": {
+  "power": 1,
+    "items": [
+     {"item": "meat-1", "amount": 2},
+    ]
+    "liquids": [
+        
+        {"liquid": "oil", "amount": 0.1},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 300,
+  "outputItem": { "item": "sand", "amount": 40}
+}

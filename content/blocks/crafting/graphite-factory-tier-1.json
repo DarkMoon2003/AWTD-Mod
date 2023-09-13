@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Graphite Factory Tier 1",
+  "health": 300,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "lead-factory-tier-1"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "lead", "amount": 200},
+   {"item": "sand", "amount": 200},
+
+   ],
+  "consumes": {
+  "power": 3,
+    "items": [
+     {"item": "meat-1", "amount": 2},
+     {"item": "coal", "amount": 1},
+
+    ]
+    "liquids": [
+        
+        {"liquid": "oil", "amount": 0.3},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 200,
+  "outputItem": { "item": "graphite", "amount": 15}
+}

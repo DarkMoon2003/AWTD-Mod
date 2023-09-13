@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Metaglass Factory Tier 1",
+  "health": 300,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "graphite-factory-tier-1"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "lead", "amount": 100},
+   {"item": "sand", "amount": 200},
+
+   ],
+  "consumes": {
+  "power": 1,
+    "items": [
+     {"item": "meat-1", "amount": 2},
+     {"item": "lead", "amount": 1},
+
+    ]
+    "liquids": [
+        
+        {"liquid": "oil", "amount": 0.2},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 200,
+  "outputItem": { "item": "metaglass", "amount": 15}
+}
