@@ -1,0 +1,28 @@
+{
+  "type": "GenericCrafter",
+  "name": "Electrolysis Of Water (Oxygen)",
+  "health": 100,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "mechanical-drill"
+   "requirements": [
+   {"item": "lead", "amount": 100},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   ],
+  "consumes": {
+      "power": 20,
+    "liquids": [
+        
+        {"liquid": "water", "amount": 3},
+        
+        ]
+   }
+   "craftTime": 60
+  "category": "crafting",
+  "liquidCapacity": 1000,
+  "itemCapacity": 20,
+  "outputLiquids": [
+      { "liquid": "oxygen-1", "amount": 0.1},]
+}
