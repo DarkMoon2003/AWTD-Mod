@@ -1,0 +1,14 @@
+{
+  "name": "Carbon",
+  "description": "Evaporated water.",
+  "heatCapacity": 0,
+  "explosiveness": 0,
+  "temperature": 0.1,
+  "gas": true,
+  "liquid": true,
+  "color": "EE9A4D",
+  "gasColor": "EE9A4D",
+  "flammability": 0,
+  "research": "hydrogen-1",
+  "coolant": false
+}

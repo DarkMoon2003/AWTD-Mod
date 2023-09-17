@@ -1,0 +1,16 @@
+{
+  "type": "CellLiquid",
+  "name": "Petroleum",
+  "description": "Evaporated water.",
+  "heatCapacity": 0.1,
+  "explosiveness": 0.1,
+  "temperature": 0.1,
+  "gas": false,
+  "liquid": true,
+  "color": "000000",
+  "colorFrom": "000000",
+  "colorTo": "000000",
+  "flammability": 0,
+  "research": "copper",
+  "coolant": true,
+}
