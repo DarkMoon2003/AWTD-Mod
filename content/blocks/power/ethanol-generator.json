@@ -1,0 +1,23 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Ethanol Generator",
+  "size": 2,
+  "health": 785,
+  "explodeOnFull": false,
+  "itemDuration": 60,
+  "consumes": {
+    "liquid": "ethanol-1/0.1"
+  },
+
+  "category": "power",
+  "research": "ethylene-refrigerant",
+  "powerProduction": 20,
+  "hasLiquids": true,
+  "liquidCapacity": 100,
+  "requirements": [
+    "graphite/50",
+    "silicon/40",
+    "plastic-1/40",
+    "iron-1/30"
+  ]
+}

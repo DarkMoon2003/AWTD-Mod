@@ -1,0 +1,23 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Acetylene Generator",
+  "size": 2,
+  "health": 785,
+  "explodeOnFull": false,
+  "itemDuration": 60,
+  "consumes": {
+    "liquid": "acetylene-1/0.1"
+  },
+
+  "category": "power",
+  "research": "plastic-maker",
+  "powerProduction": 10,
+  "hasLiquids": true,
+  "liquidCapacity": 100,
+  "requirements": [
+    "graphite/50",
+    "silicon/40",
+    "plastic-1/30",
+    "iron-1/20"
+  ]
+}

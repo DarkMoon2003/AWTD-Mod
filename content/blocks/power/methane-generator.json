@@ -1,0 +1,23 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Methane Generator",
+  "size": 3,
+  "health": 785,
+  "explodeOnFull": false,
+  "itemDuration": 60,
+  "consumes": {
+    "liquid": "methane-1/0.1"
+  },
+
+  "category": "power",
+  "research": "sabatier-reactor",
+  "powerProduction": 60.333,
+  "hasLiquids": true,
+  "liquidCapacity": 100,
+  "requirements": [
+    "graphite/50",
+    "silicon/40",
+    "plastic-1/40",
+    "iron-1/30"
+  ]
+}
