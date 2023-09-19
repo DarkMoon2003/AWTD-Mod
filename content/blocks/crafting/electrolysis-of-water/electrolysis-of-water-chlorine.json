@@ -1,0 +1,33 @@
+{
+  "type": "GenericCrafter",
+  "name": "Electrolysis Of Water (Chlorine)",
+  "health": 100,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "electrolysis-of-water-sodium-hydroxide"
+   "requirements": [
+   {"item": "lead", "amount": 100},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   ],
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+      "power": 20,
+     "items": [
+        
+      { "item": "sodium-chloride-salt-1", "amount": 1 },
+      ]
+    "liquids": [
+        
+        {"liquid": "water", "amount": 3},
+        
+        ]
+   }
+   "craftTime": 60
+  "category": "crafting",
+  "liquidCapacity": 1000,
+  "itemCapacity": 20,
+  "outputLiquids": [
+      { "liquid": "chlorine-1", "amount": 0.2},]
+}
