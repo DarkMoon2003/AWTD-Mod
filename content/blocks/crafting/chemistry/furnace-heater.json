@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "Furnace Heater",
+  "health": 100,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "electrolysis-of-water-hydrogen"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   ],
+  "consumes": {
+    "items": [
+     {"item": "coal", "amount": 15},
+    ]
+    "liquids": [
+        
+        {"liquid": "slag", "amount": 4},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 1000,
+  "itemCapacity": 20,
+  "outputLiquid": "carbon-1/1.5",
+}

@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": "Blender",
+  "health": 100,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "mechanical-drill"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   ],
+   
+   
+   
+
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 10,
+    "items": [
+        
+        {"item": "sand", "amount": 4},
+        
+        ]
+    
+    "liquids": [
+        
+        {"liquid": "water", "amount": 0.1},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 1000,
+  "itemCapacity": 20,
+  "outputLiquid": "sea-water-1/0.1",
+}

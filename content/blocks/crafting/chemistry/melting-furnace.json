@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Melting Furnace",
+  "health": 100,
+  "size": 5,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "furnace-heater"
+   "requirements": [
+   {"item": "lead", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   ],
+  "craftEffect": "blastExplosion",
+  "updateEffect": "pulverizeRed",
+  "loopSound": "smelter",
+  "loopSoundVolume": 0.35
+  "consumes": {
+    "items": [
+     {"item": "coal", "amount": 30},
+    ]
+    "liquids": [
+        
+        {"liquid": "slag", "amount": 6},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 1000,
+  "itemCapacity": 200,
+  "outputItems": [
+      { "item": "iron-1", "amount": 1},
+      { "item": "copper", "amount": 1},
+      { "item": "nickel-1", "amount": 1},
+      { "item": "phosphorus-1", "amount": 1},]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": "Petroleum Refining Factory (Propane)",
+  "health": 100,
+  "size": 4,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "petroleum-extractor",
+   "requirements": [
+   {"item": "lead", "amount": 50},
+   {"item": "titanium", "amount": 40},
+   {"item": "copper", "amount": 50},
+   {"item": "iron-1", "amount": 15},
+
+   ],
+  "craftEffect": "blastExplosion",
+  "updateEffect": "pulverizeRed",
+  "consumes": {
+    "power": 30,
+    "items": [
+     {"item": "coal", "amount": 7},
+    ]
+    "liquids": [
+        
+        {"liquid": "petroleum-1", "amount": 0.1}
+        {"liquid": "slag", "amount": 4}
+
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 20,
+  "outputLiquids": [
+      {"liquid": "propane-1" "amount": 0.2},
+]
+ 
+}

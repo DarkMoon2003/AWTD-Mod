@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "Petroleum Extractor",
+  "health": 100,
+  "size": 3,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "mechanical-drill",
+   "requirements": [
+   {"item": "lead", "amount": 100},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   {"item": "iron-1", "amount": 15},
+
+   ],
+  "craftEffect": "blastExplosion",
+  "updateEffect": "pulverizeRed",
+  "consumes": {
+    "power": 0.5,
+    "items": [
+     {"item": "sand", "amount": 2},
+     {"item": "coal", "amount": 4},
+
+    ]
+    "liquids": [
+        
+        {"liquid": "water", "amount": 0.1}
+        
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 20,
+  "outputLiquids": [
+      {"liquid": "petroleum-1" "amount": 0.01},
+]
+ 
+}
