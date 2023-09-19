@@ -1,0 +1,35 @@
+{
+  "type": "ImpactReactor",
+  "name": "Methanol Generator",
+  "description": "",
+  "health": 1100,
+  "size": 4,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "explosionShake": 15,
+  "lightColor": "000000",
+  "explodeSound": "me-nrexp",
+  "itemCapacity": 30,
+  "liquidCapacity": 200,
+  "itemDuration": 360,
+  "powerProduction": 80.9303,
+  "explosionDamage": 4000,
+  "explosionRadius": 320,
+  "consumes": {
+    "power": 20,
+    "liquid": {
+      "liquid": "methanol-1", "amount": 0.4},
+
+  },
+  "requirements": [
+    {"item": "copper", "amount": 100},
+    {"item": "lead", "amount": 150},
+    {"item": "graphite", "amount": 100},
+    {"item": "metaglass", "amount": 150},
+    {"item": "plastic-1", "amount": 50},
+    {"item": "iron-1", "amount": 75},
+  ],
+  "category": "power",
+  "research": "methanol-reactor-synthesis",
+}

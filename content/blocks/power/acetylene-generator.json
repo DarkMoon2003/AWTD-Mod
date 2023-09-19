@@ -11,7 +11,7 @@
 
   "category": "power",
   "research": "plastic-maker",
-  "powerProduction": 10,
+  "powerProduction": 18.34,
   "hasLiquids": true,
   "liquidCapacity": 100,
   "requirements": [

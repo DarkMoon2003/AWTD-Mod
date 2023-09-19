@@ -5,13 +5,14 @@
   "health": 785,
   "explodeOnFull": false,
   "itemDuration": 60,
+  "updateEffect": "smeltsmoke"
   "consumes": {
     "liquid": "ethanol-1/0.1"
   },
 
   "category": "power",
   "research": "ethylene-refrigerant",
-  "powerProduction": 20,
+  "powerProduction": 23.85,
   "hasLiquids": true,
   "liquidCapacity": 100,
   "requirements": [
