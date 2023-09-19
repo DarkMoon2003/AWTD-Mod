@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "Cow Butcher",
+  "health": 100,
+  "size": 4,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "sand-sieve"
+   "requirements": [
+   {"item": "sand", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   ],
+  "consumes": {
+    "items": [
+     {"item": "cow-1", "amount": 2},
+    ]
+    "liquids": [
+        
+        {"liquid": "water", "amount": 0.1},
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 20,
+  "outputItem": { "item": "meat-1", "amount": 1}
+}
