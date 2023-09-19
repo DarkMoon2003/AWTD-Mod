@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "Sabatier Reactor",
+  "health": 100,
+  "size": 4,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "petroleum-extrator",
+   "requirements": [
+   {"item": "plastic-1", "amount": 20},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   {"item": "iron-1", "amount": 15},
+
+   ],
+    "craftEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 22,
+    "sizeTo": 0,
+    "colorFrom": "5a5a5a",
+    "colorTo": "343434",
+    "interp": "pow2Out",}
+    "updateEffect": "smeltsmoke"
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.11,
+    "heatRequirement": 12,
+  "consumes": {
+    "power": 1,
+    "items": [
+     {"item": "nickel-1", "amount": 1},
+
+    ]
+    "liquids": [
+        
+      {"liquid": "hydrogen-1", "amount": 0.4},
+      {"liquid": "oxygen-1", "amount": 0.2},
+      {"liquid": "carbon-1", "amount": 0.1},
+      {"liquid": "slag", "amount": 0.1},
+
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 200,
+  "itemCapacity": 20,
+  "outputLiquids": [
+      {"liquid": "methane-1" "amount": 0.5},
+]
+ 
+}

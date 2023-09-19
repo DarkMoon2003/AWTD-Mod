@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "name": "Synthesis Reactor",
+  "health": 100,
+  "size": 3,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "sabatier-reactor",
+   "requirements": [
+   {"item": "plastic-1", "amount": 30},
+   {"item": "titanium", "amount": 200},
+   {"item": "copper", "amount": 200},
+   {"item": "iron-1", "amount": 20},
+
+   ],
+    "craftEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 22,
+    "sizeTo": 0,
+    "colorFrom": "5a5a5a",
+    "colorTo": "343434",
+    "interp": "pow2Out",}
+    "updateEffect": "smeltsmoke"
+  "consumes": {
+    "power":0.5,
+    "items": [
+     {"item": "nickel-1", "amount": 1},
+
+    ]
+    "liquids": [
+        
+      {"liquid": "water", "amount": 0.1},
+      {"liquid": "oxygen-1", "amount": 0.2},
+      {"liquid": "carbon-1", "amount": 0.1},
+      {"liquid": "methane-1", "amount": 0.1},
+      {"liquid": "slag", "amount": 0.3},
+
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 200,
+  "itemCapacity": 20,
+  "outputLiquids": [
+      {"liquid": "synthesis-1" "amount": 0.6},
+]
+ 
+}

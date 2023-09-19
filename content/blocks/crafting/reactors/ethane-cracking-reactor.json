@@ -1,0 +1,46 @@
+{
+  "type": "GenericCrafter",
+  "name": "Ethane Cracking Reactor",
+  "health": 100,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "choromethane-reactor",
+   "requirements": [
+   {"item": "plastic-1", "amount": 20},
+   {"item": "lead", "amount": 100},
+   {"item": "copper", "amount": 100},
+   {"item": "iron-1", "amount": 15},
+
+   ],
+    "craftEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 22,
+    "sizeTo": 0,
+    "colorFrom": "5a5a5a",
+    "colorTo": "343434",
+    "interp": "pow2Out",}
+    "updateEffect": "smeltsmoke"
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.11,
+    "heatRequirement": 12,
+  "consumes": {
+    "power": 1,
+    "items": [
+
+    ]
+    "liquids": [
+        
+      {"liquid": "ethane-1", "amount": 0.1},
+
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 200,
+  "itemCapacity": 20,
+  "outputLiquids": [
+      {"liquid": "ethylene-1" "amount": 1},
+]
+ 
+}
