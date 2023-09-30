@@ -1,0 +1,16 @@
+{
+  "type": "CellLiquid",
+  "name": "Iodine",
+  "description": "",
+  "heatCapacity": 0.1,
+  "explosiveness": 0.1,
+  "temperature": 0.1,
+  "gas": false,
+  "liquid": true,
+  "color": "8D38C9",
+  "colorFrom": "8D38C9",
+  "colorTo": "8D38C9",
+  "flammability": 0,
+  "research": "sulfuric-acid-1",
+  "coolant": true,
+}

@@ -1,0 +1,16 @@
+{
+  "type": "CellLiquid",
+  "name": "Nitrogen",
+  "description": "",
+  "heatCapacity": 0.1,
+  "explosiveness": 1,
+  "temperature": 0.1,
+  "gas": false,
+  "liquid": true,
+  "color": "ececec",
+  "colorFrom": "ececec",
+  "colorTo": "ececec",
+  "flammability": 0,
+  "research": "air-1",
+  "coolant": true,
+}

@@ -1,0 +1,16 @@
+{
+  "type": "CellLiquid",
+  "name": "Ethyl Iodide",
+  "description": "",
+  "heatCapacity": 0.1,
+  "explosiveness": 1,
+  "temperature": 0.1,
+  "gas": false,
+  "liquid": true,
+  "color": "ececec",
+  "colorFrom": "ececec",
+  "colorTo": "ececec",
+  "flammability": 0,
+  "research": "sulfuric-acid-1",
+  "coolant": true,
+}
