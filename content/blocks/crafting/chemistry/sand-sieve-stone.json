@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Sand Sieve (stone)",
+  "health": 100,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "mechanical-drill",
+   "requirements": [
+   {"item": "copper", "amount": 100},
+   {"item": "iron-1", "amount": 15},
+   {"item": "plastic-1", "amount": 15},
+   ],
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.5,
+    "items": [
+     {"item": "sand", "amount": 10},
+
+    ]
+    "liquids": [
+        
+        {"liquid": "water", "amount": 0.1}
+        
+        
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 60,
+  "outputItems": [
+      {"item": "stone-1" "amount": 1},
+]
+ 
+}

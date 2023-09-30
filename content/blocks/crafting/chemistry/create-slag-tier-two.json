@@ -1,0 +1,42 @@
+{
+  "type": "GenericCrafter",
+  "name": "Create Slag Tier 2",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ]
+  },
+  "health": 100,
+  "size": 3,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "create-slag-tier-1",
+   "requirements": [
+   {"item": "lead", "amount": 200},
+   {"item": "titanium", "amount": 200},
+   {"item": "copper", "amount": 200},
+   {"item": "iron-1", "amount": 30},
+   ],
+  "craftEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.5,
+    "items": [
+     {"item": "scrap", "amount": 20},
+
+    ]
+}
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 20,
+  "outputLiquids": [
+      {"liquid": "slag" "amount": 3.4 },
+]
+ 
+}

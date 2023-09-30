@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": "Incinerator (Nitrogen)",
+  "description": "",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 60,
+  "itemCapacity": 20,
+  "liquidCapacity": 60,
+  "craftEffect": {
+    "type": "WaveEffect",
+    "colorFrom": "f7cba4",
+    "colorTo": "d3ae8d",
+    "lifetime": 45,
+    "sizeFrom": 4,
+    "sizeTo": 0
+  },
+  "consumes": {
+    "liquids": [
+        
+        {"liquid": "air-1", "amount": 0.1},
+        {"liquid": "methane-1", "amount": 0.5}
+        ]
+  },
+  "requirements": [
+    {"item": "copper", "amount": 60},
+    {"item": "lead", "amount": 30},
+    {"item": "iron-1", "amount": 20},
+  ],
+  "category": "crafting",
+  "research": "petroleum-extractor",
+  "outputLiquid": "nitro-1/0.1",
+}
