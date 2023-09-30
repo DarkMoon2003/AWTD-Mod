@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Ethyl Iodine Furnace",
+  "health": 100,
+  "size": 3,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "iodide-furnace"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   ],
+  "craftEffect": "blastExplosion",
+  "updateEffect": "pulverizeRed",
+  "consumes": {
+    "power": 5,
+    
+    "items": [
+        
+        {"item": "phosphorus-1", "amount": 5},
+
+    ]
+    
+    "liquids": [
+        {"liquid": "methane-1", "amount": 0.3},
+        {"liquid": "ethanol-1", "amount": 0.1},
+        {"liquid": "iodine-1", "amount": 0.1},
+
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 20,
+  "outputLiquid": "ethyl-iodide-1/0.3",
+}

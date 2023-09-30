@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Roasting-Machine",
+  "health": 100,
+  "size": 3,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "iodine-furnace"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   ],
+  "craftEffect": "blastExplosion",
+  "updateEffect": "pulverizeRed",
+  "consumes": {
+    "power": 5,
+    
+    "items": [
+        
+        {"item": "coal", "amount": 15},
+        {"item": "sphalerite-1", "amount": 2},
+    ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 20,
+  "outputItems": [
+      
+        {"item": "zinc-1", "amount": 1},
+        {"item": "sulfur-1", "amount": 1},
+
+      
+      
+      ]
+}

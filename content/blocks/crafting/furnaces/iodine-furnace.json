@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Iodine Furnace",
+  "health": 100,
+  "size": 3,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "furnace"
+   "requirements": [
+   {"item": "coal", "amount": 200},
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   ],
+  "craftEffect": "blastExplosion",
+  "updateEffect": "pulverizeRed",
+  "consumes": {
+    "power": 5,
+    
+    "items": [
+        
+        {"item": "coal", "amount": 5},
+        {"item": "sodium-carbonate-1", "amount": 1},
+
+    ]
+    
+    "liquids": [
+        {"liquid": "water", "amount": 0.1},
+        {"liquid": "sulfuric-acid-1", "amount": 0.1},
+
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 20,
+  "outputLiquid": "iodine-1/0.3",
+}
