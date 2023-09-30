@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "Chemical Mixer",
+  "health": 100,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "sand-sieve-stone"
+   "requirements": [
+   {"item": "titanium", "amount": 100},
+   {"item": "copper", "amount": 100},
+   {"item": "iron-1", "amount": 20},
+   {"item": "plastic-1", "amount": 30},
+   ],
+    "craftEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 22,
+    "sizeTo": 0,
+    "colorFrom": "5a5a5a",
+    "colorTo": "343434",
+    "interp": "pow2Out",}
+    "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 10, 
+    "items": [
+        
+        {"item": "stone-1", "amount": 1}
+        
+        ]
+    "liquids": [
+     {"liquid": "petroleum-1", "amount": 0.1},
+
+    ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 120,
+  "itemCapacity": 20,
+  "outputItems": [
+      
+      {"item": "sulfur-1", "amount": 1},
+      {"item": "sphalerite-1", "amount": 1},
+
+      ],
+}
