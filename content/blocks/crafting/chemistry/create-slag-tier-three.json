@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": "Create Slag Tier 3",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ]
+  },
+  "size": 4,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 100,
+  "craftTime": 1000,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 10,
+    "items": [
+      "scrap/40"
+    ]
+  },
+  "requirements": [
+    "surge-alloy/300",
+    "plastanium/230",
+    "titanium/320",
+    "silicon/230",
+    "lead/330"
+  ],
+  "category": "crafting",
+  "research": "create-slag-tier-two",
+  "outputLiquid": "slag/5"
+}
