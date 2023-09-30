@@ -1,0 +1,14 @@
+{
+  "name": "Ethylene",
+  "description": "Evaporated water.",
+  "heatCapacity": 0.1,
+  "explosiveness": 0,
+  "temperature": 0.1,
+  "gas": true,
+  "liquid": true,
+  "color": "ececec",
+  "gasColor": "ececec"
+  "flammability": 0,
+  "research": "copper",
+  "coolant": false
+}

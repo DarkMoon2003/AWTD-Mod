@@ -1,0 +1,14 @@
+{
+  "name": "Air",
+  "description": "",
+  "heatCapacity": 0,
+  "explosiveness": 0,
+  "temperature": 0,
+  "gas": true,
+  "liquid": true,
+  "color": "ececec",
+  "gasColor": "ececec"
+  "flammability": 0,
+  "research": "sulfur-dioxide-1",
+  "coolant": false
+}

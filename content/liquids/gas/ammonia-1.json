@@ -1,0 +1,14 @@
+{
+  "name": "Ammonia",
+  "description": "",
+  "heatCapacity": 0.1,
+  "explosiveness": 0,
+  "temperature": 0.1,
+  "gas": true,
+  "liquid": true,
+  "color": "E0FFFF",
+  "gasColor": "E0FFFF"
+  "flammability": 0,
+  "research": "air-1",
+  "coolant": false
+}

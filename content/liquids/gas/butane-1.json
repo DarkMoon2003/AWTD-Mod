@@ -1,0 +1,14 @@
+{
+  "name": "Butane",
+  "description": "",
+  "heatCapacity": 10,
+  "explosiveness": 10,
+  "temperature": 0.1,
+  "gas": true,
+  "liquid": true,
+  "color": "ececec",
+  "gasColor": "ececec"
+  "flammability": 0,
+  "research": "zinc-1",
+  "coolant": false
+}

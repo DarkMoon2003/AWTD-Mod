@@ -1,0 +1,14 @@
+{
+  "name": "Hydrogen Sulfide",
+  "description": "",
+  "heatCapacity": 0.1,
+  "explosiveness": 0,
+  "temperature": 0.1,
+  "gas": true,
+  "liquid": true,
+  "color": "C3FDB8",
+  "gasColor": "C3FDB8"
+  "flammability": 0,
+  "research": "propane-1",
+  "coolant": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Oxygen",
+  "description": "Evaporated water.",
+  "heatCapacity": 0,
+  "explosiveness": 0,
+  "temperature": 0.1,
+  "gas": true,
+  "liquid": true,
+  "color": "3BB9FF",
+  "gasColor": "3BB9FF",
+  "flammability": 0,
+  "research": "copper",
+  "coolant": false
+}
