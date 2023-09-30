@@ -1,0 +1,48 @@
+{
+  "type": "ImpactReactor",
+  "name": "Butane Generator",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ]
+  },
+  "description": "",
+  "health": 1100,
+  "size": 4,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "explosionShake": 15,
+  "lightColor": "000000",
+  "explodeSound": "me-nrexp",
+  "itemCapacity": 30,
+  "liquidCapacity": 200,
+  "itemDuration": 360,
+  "powerProduction": 200.7393,
+  "explosionDamage": 4000,
+  "explosionRadius": 320,
+  "consumes": {
+    "power": 30,
+    "liquids": [
+        
+      {"liquid": "butane-1", "amount": 0.1},
+      {"liquid": "oxygen-1", "amount": 0.1},
+]
+},
+  "requirements": [
+    {"item": "copper", "amount": 500},
+    {"item": "lead", "amount": 300},
+    {"item": "graphite", "amount": 100},
+    {"item": "metaglass", "amount": 400},
+    {"item": "plastic-1", "amount": 150},
+    {"item": "iron-1", "amount": 300},
+  ],
+  "category": "power",
+  "research": "propane-generator",
+}
