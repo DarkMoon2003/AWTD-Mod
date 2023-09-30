@@ -1,0 +1,44 @@
+{
+  "type": "GenericCrafter",
+  "name": "butane Reactor",
+  "health": 100,
+  "size": 2,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "hydrogen-sulfide-reactor",
+   "requirements": [
+   {"item": "plastic-1", "amount": 50},
+   {"item": "titanium", "amount": 200},
+   {"item": "copper", "amount": 200},
+   {"item": "iron-1", "amount": 50},
+   {"item": "lead", "amount": 200},
+
+   ],
+    "craftEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 22,
+    "sizeTo": 0,
+    "colorFrom": "5a5a5a",
+    "colorTo": "343434",
+    "interp": "pow2Out",}
+    "updateEffect": "smeltsmoke"
+  "consumes": {
+    "power":20,
+    "items": [
+        
+        {"item": "zinc-1", "amount": 1},
+        
+        ]
+    "liquids": [
+      {"liquid": "ethyl-iodide-1", "amount": 0.1},
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 200,
+  "itemCapacity": 20,
+  "outputLiquids": [
+      {"liquid": "butane-1" "amount": 0.2},
+]
+ 
+}

@@ -1,15 +1,15 @@
 {
   "type": "GenericCrafter",
-  "name": "Sabatier Reactor",
+  "name": "Hydrogen Sulfide Reactor",
   "health": 100,
-  "size": 4,
+  "size": 3,
   "hasLiquid": true,
   "hasItems": true
-  "research": "ethylene-nuclear-reactor",
+  "research": "ethane-cracking-reactor",
    "requirements": [
    {"item": "plastic-1", "amount": 20},
-   {"item": "titanium", "amount": 100},
-   {"item": "copper", "amount": 100},
+   {"item": "titanium", "amount": 200},
+   {"item": "copper", "amount": 200},
    {"item": "iron-1", "amount": 15},
 
    ],
@@ -21,21 +21,15 @@
     "colorTo": "343434",
     "interp": "pow2Out",}
     "updateEffect": "smeltsmoke"
-    "ambientSound": "smelter",
-    "ambientSoundVolume": 0.11,
-    "heatRequirement": 12,
   "consumes": {
-    "power": 1,
+    "power":10,
     "items": [
-     {"item": "nickel-1", "amount": 1},
+     {"item": "sulfur-1", "amount": 1},
 
     ]
     "liquids": [
-        
-      {"liquid": "hydrogen-1", "amount": 0.4},
-      {"liquid": "oxygen-1", "amount": 0.2},
-      {"liquid": "carbon-1", "amount": 0.1},
-      {"liquid": "slag", "amount": 0.1},
+      {"liquid": "hydrogen-1", "amount": 0.2},
+      {"liquid": "slag", "amount": 1},
 
         ]
    }
@@ -44,7 +38,7 @@
   "liquidCapacity": 200,
   "itemCapacity": 20,
   "outputLiquids": [
-      {"liquid": "methane-1", "amount": 0.5},
+      {"liquid": "hydrogen-sulfide-1" "amount": 0.3},
 ]
  
 }

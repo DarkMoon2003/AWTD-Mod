@@ -1,0 +1,41 @@
+{
+  "type": "GenericCrafter",
+  "name": "Sodium Carbonate Reactor",
+  "health": 100,
+  "size": 4,
+  "hasLiquid": true,
+  "hasItems": true
+  "research": "ammonia-reactor",
+   "requirements": [
+   {"item": "plastic-1", "amount": 30},
+   {"item": "titanium", "amount": 200},
+   {"item": "copper", "amount": 200},
+   {"item": "iron-1", "amount": 10},
+
+   ],
+    "craftEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 22,
+    "sizeTo": 0,
+    "colorFrom": "5a5a5a",
+    "colorTo": "343434",
+    "interp": "pow2Out",}
+    "updateEffect": "smeltsmoke"
+  "consumes": {
+    "power":13.79,
+    "liquids": [
+      {"liquid": "ammonia-1", "amount": 0.1},
+      {"liquid": "water", "amount": 0.1},
+      {"liquid": "chlorine-1", "amount": 0.1},
+      {"liquid": "hydrogen-1", "amount": 0.1},
+      {"liquid": "oxygen-1", "amount": 0.2},
+      {"liquid": "carbon-1", "amount": 0.1},
+        ]
+   }
+  "craftTime": 60,
+  "category": "crafting",
+  "liquidCapacity": 200,
+  "itemCapacity": 60,
+  "outputItem": "sodium-carbonate-1/7",
+ 
+}
